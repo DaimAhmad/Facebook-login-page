@@ -1,0 +1,57 @@
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: rgb(242, 242, 242);
+
+
+}
+#logo{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color:#1877f2;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif!important;;
+    
+}
+.form{
+    width: 30%;
+    height: 37rem;
+    
+    border: 1px solid beige;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 6px;
+    background-color:#ffffff;
+    margin-top: -18px;
+ 
+  
+}
+#create{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#quick{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#name{
+    display: flex;
+    font-size: large;
+    column-gap: 15%;
+}
+#date{
+  display: flex;
+  column-gap: 30px;
+}
